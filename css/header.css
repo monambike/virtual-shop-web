@@ -1,0 +1,48 @@
+/*Título e logo*/
+header div{
+	background-color: black;
+	height: 150px;
+}
+#logo{
+	background-color: black;
+	display: block;
+	float: left;
+	height: 150px;
+	margin: 0px;
+	width: 150px;
+}
+h1{
+	color: white;
+	margin: 0px;
+	padding-top: 75px;
+	text-align: center;
+}
+/*Guia de navegação*/
+nav{
+	background-color: rgba(20,20,20,1);
+	text-align: center;
+}
+nav ul{margin: 0px;}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0px 10px 0px 10px;
+	padding: 10px;
+	transition: 0.2s;
+}
+nav a{
+	color: white;
+	font-size: 16pt;
+	text-decoration-style: none;
+}
+/*Hover*/
+nav a:hover{
+	color: rgba(200,200,200);
+}
+nav ul li:hover{
+	background-color: rgba(30,30,30,1);
+}
+/*Active*/
+nav a:active{
+	color: rgba(0,0,160);
+}

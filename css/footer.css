@@ -1,0 +1,23 @@
+footer{
+	background-color: black;
+	color: white;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+footer div{
+	background-color: rgba(30,30,30,1);
+	float: left;
+	height: 300px;
+	width: 30%;
+}
+#footer-div1{
+	margin-left: 2.5%;
+}
+#footer-div2{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+#footer-div3{
+	margin-right: 2.5%;
+}
