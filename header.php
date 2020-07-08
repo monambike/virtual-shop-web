@@ -5,6 +5,9 @@
 		<!--CSS e Scripts-->
 		<link rel="stylesheet" type="text/css" href="css/header.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<!--Ícones-->
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	</head>
 	<body>
 		<header>
