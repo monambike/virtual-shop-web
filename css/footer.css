@@ -1,3 +1,4 @@
+/*Divisões principais*/
 footer{
 	background-color: black;
 	color: white;
@@ -6,9 +7,10 @@ footer{
 	width: 100%;
 }
 footer div{
-	background-color: rgba(30,30,30,1);
+	background-color: black;
 	float: left;
-	height: 300px;
+	height: 100%;
+	text-align: justify;
 	width: 30%;
 }
 #footer-div1{
@@ -20,4 +22,14 @@ footer div{
 }
 #footer-div3{
 	margin-right: 2.5%;
+}
+ul li{
+	list-style: none;
+}
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+p{
+	margin: 0px;
 }
