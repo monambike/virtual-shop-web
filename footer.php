@@ -4,7 +4,6 @@
 	<head>
 		<!--CSS e Scripts-->
 		<link rel="stylesheet" type="text/css" href="css/footer.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
 		<footer>
@@ -41,7 +40,7 @@
 
 					Sincerely,
 
-					Jhon
+					John
 				</p>
 			</div>
 			<!--

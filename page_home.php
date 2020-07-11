@@ -11,13 +11,12 @@
 		<meta name="description" content="Uma loja de eletrodomésticos que procura sempre vender os melhores produtos.">
 		<meta name="keywords" content="loja, eletrodomesticos, produtos">
 		<!--CSS e Scripts-->
-		<link rel="stylesheet" type="text/css" href="css/header.css">
 		<link rel="stylesheet" type="text/css" href="css/page_home.css">
 		<!--Ícones-->
 		<link rel="icon" type="image/x-icon" href="images/hanabi.png">
 		<link rel="shortcut icon" href="images/hanabi.png" type="image/x-icon">
 	</head>
 	<body>
-		home.php
+		<h3>PÁGINA INICIAL</h3>
 	</body>
 </html>

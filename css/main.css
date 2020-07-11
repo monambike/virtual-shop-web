@@ -1,17 +1,44 @@
+:root{
+	/*Black, Gray and White*/
+	--black: rgba(5,5,5,1);
+	--dark-gray: rgba(30,30,30);
+	--gray: rgba(80,80,80);
+	--white: rgba(245,245,245,1);
+	/*Yellow*/
+	--bright-yellow: rgba(230,230,0);
+	--dark-yellow: rgba(160,160,0);
+	--yellow: rgba(200,200,0);
+}
 /*Divisões principais*/
 body{
-	background-color: gray;
+	background-color: var(--gray);
 	font-size: 12pt;
 	font-family: Arial, Helvetica, sans-serif;
-	margin: 0px;
 	word-break: break-all;
-	margin: 0px 15% 0px 15%;
+}
+h3{
+	background-color: var(--yellow);
+	color: var(--black);
+	margin: 0px;
+	padding: 15px;
+	text-align: center;
 }
 
 @media only screen and (max-width: 600px){
-
+	body{
+		margin: 0px;
+	}
+	h3{
+		border-top: 15px solid var(--black);
+		border-bottom: 15px solid var(--black);
+	}
 }
 
 @media only screen and (min-width: 600px){
-
+	body{
+		margin: 0px 15% 0px 15%;
+	}
+	h3{
+		border-left: 25px solid var(--black);
+	}
 }
