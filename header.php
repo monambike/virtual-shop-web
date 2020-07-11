@@ -17,17 +17,17 @@
 				<a href="?p=home"><h1><span>ELETRO</span>LOJINHA LTDA.</h1></a>
 			</div>
 			<nav>
+				<?php
+					$pg = null;
+					if(isset($_GET["p"])){
+						$pg = $_GET["p"];
+					}
+				?>
 				<ul>
-					<?php 
-						if(isset($_GET["p"])){
-							$pg = $_GET["p"];
-							
-						}
-					?>
-					<a href="?p=home" <?php if($pg="home"){echo"class='.selected'";}?> ><li>INÍCIO</li></a>
-					<a href="?p=products" <?php if($pg="products"){echo"class='.selected'";}?> ><li>PRODUTOS</li></a>
-					<a href="?p=contact" <?php if($pg="contact"){echo"class='.selected'";}?> ><li>CONTATO</li></a>
-					<a href="?p=about" <?php if($pg="about"){echo"class='.selected'";}?> ><li>SOBRE NÓS</li></a>
+					<a href="?p=home" <?php if($pg=="home"){echo"class='.selected'";}else{}?> ><li>INÍCIO</li></a>
+					<a href="?p=products" <?php if($pg=="products"){echo"class='.selected'";}?> ><li>PRODUTOS</li></a>
+					<a href="?p=contact" <?php if($pg=="contact"){echo"class='.selected'";}?> ><li>CONTATO</li></a>
+					<a href="?p=about" <?php if($pg=="about"){echo"class='.selected'";}?> ><li>SOBRE NÓS</li></a>
 				</ul>
 			</nav>
 		</header>

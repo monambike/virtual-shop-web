@@ -66,3 +66,12 @@ nav ul li:active{
 	background-color: var(--dark-yellow);
 	transition: 0.10s;
 }
+/*Selecionado*/
+.selected{
+	color: var(--black);
+	transition: 0.10s;
+}
+.selected{
+	background-color: var(--bright-yellow);
+	transition: 0.10s;
+}
