@@ -4,6 +4,7 @@ header div{
 	background-color: var(--black);
 	height: 100%;
 	min-height: 150px;
+	word-break: keep-all;
 }
 #logo{
 	background-color: var(--black);
@@ -15,6 +16,7 @@ header div{
 }
 h1{
 	color: var(--white);
+	font-size: 3vw;
 	margin: 0px;
 	padding-top: 75px;
 	text-align: center;
@@ -67,11 +69,17 @@ nav ul li:active{
 	transition: 0.10s;
 }
 /*Selecionado*/
-.selected{
+nav .selected{
 	color: var(--black);
 	transition: 0.10s;
 }
-.selected{
+nav .selected{
 	background-color: var(--bright-yellow);
 	transition: 0.10s;
+}
+
+@media only screen and (max-width: 600px){
+	h1{
+		font-size: 6vw;
+	}
 }
