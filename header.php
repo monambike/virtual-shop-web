@@ -1,4 +1,9 @@
-<?php?>
+<?php
+	$pg = null;
+	if(isset($_GET["p"])){
+		$pg = $_GET["p"];
+	}
+?>
 <!DOCTYPE html>
 <html lang="pt">
 	<head>
@@ -14,20 +19,25 @@
 		<header>
 			<div>
 				<img id="logo" src="images/store_icon.png">
-				<a href="?p=home"><h1><span>ELETRO</span>LOJINHA LTDA.</h1></a>
+				<a href="?p=home"><h1><span>ELETRO</span>LOJINHA&nbsp;LTDA.</h1></a>
 			</div>
 			<nav>
-				<?php
-					$pg = null;
-					if(isset($_GET["p"])){
-						$pg = $_GET["p"];
-					}
-				?>
 				<ul>
-					<a href="?p=home" <?php if($pg=="home"){echo"class='.selected'";}else{}?> ><li>INÍCIO</li></a>
-					<a href="?p=products" <?php if($pg=="products"){echo"class='.selected'";}?> ><li>PRODUTOS</li></a>
-					<a href="?p=contact" <?php if($pg=="contact"){echo"class='.selected'";}?> ><li>CONTATO</li></a>
-					<a href="?p=about" <?php if($pg=="about"){echo"class='.selected'";}?> ><li>SOBRE NÓS</li></a>
+					<?php
+						echo $pg;
+					?>
+					<a href="?p=home">
+						<li <?php if($pg != "products" && $pg != "contact" && $pg != "about"){echo"class='selected'";}?>>INÍCIO</li>
+					</a>
+					<a href="?p=products">
+						<li <?php if($pg=="products"){echo"class='selected'";}?>>PRODUTOS</li>
+					</a>
+					<a href="?p=contact">
+						<li <?php if($pg=="contact"){echo"class='selected'";}?>>CONTATO</li>
+					</a>
+					<a href="?p=about">
+						<li <?php if($pg=="about"){echo"class='selected'";}?>>SOBRE NÓS</li>
+					</a>
 				</ul>
 			</nav>
 		</header>
