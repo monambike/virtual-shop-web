@@ -17,6 +17,6 @@
 		<link rel="shortcut icon" href="images/hanabi.png" type="image/x-icon">
 	</head>
 	<body>
-		<h3>NOSSOS PRODUTOS</h3>
+		<h3>NOSSOS&nbsp;PRODUTOS</h3>
 	</body>
 </html>
