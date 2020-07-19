@@ -25,7 +25,7 @@ h1 a span{
 	color: var(--yellow);
 }
 a{
-	color: white;
+	color: var(--white);
 	text-decoration: none !important;
 }
 h1 a:hover{
@@ -47,7 +47,7 @@ nav ul li{
 	transition: 0.2s;
 }
 nav a{
-	color:  var(--white);
+	color:  var(--pastel-yellow);
 	font-size: 16pt;
 	text-decoration-style: none;
 }

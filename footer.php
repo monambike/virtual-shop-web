@@ -20,14 +20,14 @@
 			<div id="footer-div2">
 				Most asked products:
 				<ol>
-					<li>Product (1)</li>
-					<li>Product (2)</li>
-					<li>Product (3)</li>
-					<li>Product (4)</li>
-					<li>Product (5)</li>
-					<li>Product (6)</li>
-					<li>Product (7)</li>
-					<li>Product (8)</li>
+					<a href="#"><li>Product (1)</li></a>
+					<a href="#"><li>Product (2)</li></a>
+					<a href="#"><li>Product (3)</li></a>
+					<a href="#"><li>Product (4)</li></a>
+					<a href="#"><li>Product (5)</li></a>
+					<a href="#"><li>Product (6)</li></a>
+					<a href="#"><li>Product (7)</li></a>
+					<a href="#"><li>Product (8)</li></a>
 				</ol>
 			</div>
 			<div id="footer-div3">

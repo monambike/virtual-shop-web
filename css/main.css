@@ -6,7 +6,8 @@
 	--white: rgba(245,245,245,1);
 	/*Yellow*/
 	--bright-yellow: rgba(230,230,0,1);
-	--dark-yellow: rgba(160,160,0,1);
+	--pastel-yellow: rgba(250,250,120,1);
+	--dark-yellow: rgba(160,160,20,1);
 	--yellow: rgba(200,200,0,1);
 }
 /*Divisões principais*/
@@ -17,11 +18,12 @@ body{
 	word-break: break-all;
 }
 h3{
-	background-color: var(--yellow);
-	color: var(--black);
+	background-color: var(--dark-yellow);
+	color: var(--pastel-yellow);
 	margin: 0px;
 	padding: 15px;
 	text-align: center;
+	text-shadow: 2px 2px var(--black);
 }
 section{
 	background-color: var(--bright-yellow);
