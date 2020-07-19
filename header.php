@@ -7,13 +7,6 @@
 <!DOCTYPE html>
 <html lang="pt">
 	<head>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<!--CSS e Scripts-->
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link rel="stylesheet" type="text/css" href="css/header.css">
-		<!--Ícones-->
-		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
-		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	</head>
 	<body>
 		<header>

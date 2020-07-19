@@ -2,8 +2,6 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!--CSS e Scripts-->
-		<link rel="stylesheet" type="text/css" href="css/footer.css">
 	</head>
 	<body>
 		<footer>
