@@ -11,7 +11,7 @@
 	<body>
 		<header>
 			<div>
-				<img id="logo" src="images/store_icon.png">
+				<img id="logo" src="images/favicon.ico">
 				<h1><a href="?p=home"><span>ELETRO</span>LOJINHA&nbsp;LTDA.</a></h1>
 			</div>
 			<nav>
