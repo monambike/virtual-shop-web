@@ -5,7 +5,7 @@
 	}
 ?>
 <!DOCTYPE html>
-<html lang="pt">
+<html>
 	<head>
 	</head>
 	<body>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 	<head>
 		<title>ELETROLOJINHA</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	</head>
-	<body style="box-shadow: 2px 2px black;">
+	<body style="box-shadow: 2px 2px red;">
 		<?php
 			require_once("functions.php"); 
 			require_once("header.php");

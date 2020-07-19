@@ -3,7 +3,6 @@
 footer{
 	background-color: var(--black);
 	color: var(--white);
-	float: left;
 	text-align: center;
 	width: 100%;
 }
