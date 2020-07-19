@@ -12,7 +12,7 @@
 		<header>
 			<div>
 				<img id="logo" src="images/store_icon.png">
-				<a href="?p=home"><h1><span>ELETRO</span>LOJINHA&nbsp;LTDA.</h1></a>
+				<h1><a href="?p=home"><span>ELETRO</span>LOJINHA&nbsp;LTDA.</a></h1>
 			</div>
 			<nav>
 				<ul>

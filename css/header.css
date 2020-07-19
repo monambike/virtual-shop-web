@@ -21,17 +21,18 @@ h1{
 	padding-top: 75px;
 	text-align: center;
 }
-h1 span{
+h1 a span{
 	color: rgba(220,220,0,1);
 }
 a{
 	color: white;
 	text-decoration: none !important;
 }
-h1:hover{
+h1 a:hover{
 	color: rgba(220,220,0,1);
 	cursor: pointer;
 }
+
 /*Guia de navegação*/
 nav{
 	background-color: var(--dark-gray);
