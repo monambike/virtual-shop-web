@@ -92,10 +92,11 @@
 				var actualScroll = document.documentElement.scrollTop;
 
 				if(actualScroll > lastScroll && actualScroll > "600"){
-					alert("descendo");
+					console.log("descendo");
 				}else if(actualScroll < lastScroll && actualScroll > "600"){
-					alert("subindo");
-				}
+					console.log("subindo");				}
+
+				lastScroll = actualScroll;
 			}
 		</script>
 	</body>
