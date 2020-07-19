@@ -23,6 +23,9 @@ h3{
 	padding: 15px;
 	text-align: center;
 }
+section{
+	background-color: var(--white);
+}
 
 @media only screen and (max-width: 600px){
 	body{

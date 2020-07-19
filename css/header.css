@@ -22,14 +22,14 @@ h1{
 	text-align: center;
 }
 h1 a span{
-	color: rgba(220,220,0,1);
+	color: var(--yellow);
 }
 a{
 	color: white;
 	text-decoration: none !important;
 }
 h1 a:hover{
-	color: rgba(220,220,0,1);
+	color: var(--yellow);
 	cursor: pointer;
 }
 
