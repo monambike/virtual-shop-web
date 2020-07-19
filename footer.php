@@ -7,13 +7,15 @@
 		<footer>
 			<br>
 			<div id="footer-div1">
-				<ul>
-					<li>4768  Stratford Drive</li>
-					<li>Kona, Hawaii</li>
-					<li>ZIP Code: 96740</li>
-					<li>808-334-4471</li>
-					<li>a8uqe3zxn6j@powerencry.com</li>
-				</ul>
+				<address>
+					<ul>
+						<li>4768  Stratford Drive</li>
+						<li>Kona, Hawaii</li>
+						<li>ZIP Code: 96740</li>
+						<li>808-334-4471</li>
+						<li>a8uqe3zxn6j@powerencry.com</li>
+					</ul>
+				</address>
 			</div>
 			<div id="footer-div2">
 				Most asked products:
