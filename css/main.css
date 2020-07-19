@@ -13,6 +13,7 @@
 /*Divisões principais*/
 body{
 	background: var(--yellow) url(../images/background/yellow.jpg) center/cover no-repeat;
+	box-shadow: 5px 0px rgba(100,100,10);
 	font-size: 12pt;
 	font-family: Arial, Helvetica, sans-serif;
 	word-break: break-all;

@@ -17,12 +17,12 @@
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	</head>
-	<body style="box-shadow: 2px 2px red;">
-		<?php
-			require_once("functions.php"); 
-			require_once("header.php");
-			loadPage();
-			require_once("footer.php");
-		?>
+	<body id="element-body">
 	</body>
 </html>
+<?php
+	require_once("functions.php"); 
+	require_once("header.php");
+	loadPage();
+	require_once("footer.php");
+?>

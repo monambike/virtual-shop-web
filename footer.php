@@ -85,5 +85,18 @@
 			-->
 			<span>Creative Commons 2020</span>
 		</footer>
+		<script type="text/javascript">
+			var lastScroll = 0;
+
+			window.onscroll = function(e){
+				var actualScroll = document.documentElement.scrollTop;
+
+				if(actualScroll > lastScroll && actualScroll > "600"){
+					alert("descendo");
+				}else if(actualScroll < lastScroll && actualScroll > "600"){
+					alert("subindo");
+				}
+			}
+		</script>
 	</body>
 </html>
