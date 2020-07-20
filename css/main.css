@@ -18,6 +18,9 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 	word-break: break-all;
 }
+section{
+	background-color: var(--bright-yellow);
+}
 h3{
 	background-color: var(--dark-yellow);
 	color: var(--pastel-yellow);
@@ -26,8 +29,9 @@ h3{
 	text-align: center;
 	text-shadow: 2px 2px var(--black);
 }
-section{
-	background-color: var(--bright-yellow);
+address{
+	font-style: italic;
+	margin: 0px;
 }
 
 @media only screen and (max-width: 600px){
