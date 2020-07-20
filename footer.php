@@ -87,16 +87,36 @@
 		</footer>
 		<script type="text/javascript">
 			var lastScroll = 0;
+			var menu = document.getElementById("top-menu");
+			var navbar = document.getElementById("navbar");
 
 			window.onscroll = function(e){
-				var actualScroll = document.documentElement.scrollTop;
+				if(window.matchMedia("(orientation: portrait)").matches){
+					var actualScroll = document.documentElement.scrollTop;
 
-				if(actualScroll > lastScroll && actualScroll > "600"){
-					console.log("descendo");
-				}else if(actualScroll < lastScroll && actualScroll > "600"){
-					console.log("subindo");				}
+					if(actualScroll > lastScroll && actualScroll > "400"){
+						console.log("descendo");
+						menu.style.display = "none";
+					}else if(actualScroll < lastScroll && actualScroll > "400"){
+						console.log("subindo");
+						menu.style.display = "block";
+					}else{
+						menu.style.display = "none";
+					}
 
-				lastScroll = actualScroll;
+					lastScroll = actualScroll;					
+				}else if(window.matchMedia("(orientation: landscape)").matches){
+					menu.style.display = "none";
+				}
+			}
+
+			function openMenu(){
+				navbar.style.width = "100%";
+				menu.style.marginLeft = "100%";
+			}
+			function closeMenu(){
+				navbar.style.width = "0";
+				menu.style.marginLeft = "0";
 			}
 		</script>
 	</body>

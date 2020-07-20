@@ -1,6 +1,6 @@
 /*Divisões principais*/
 /*Título e logo*/
-header div{
+#header-title{
 	background-color: var(--black);
 	height: 100%;
 	min-height: 150px;
@@ -33,54 +33,78 @@ h1 a:hover{
 	cursor: pointer;
 }
 
-/*Guia de navegação*/
-nav{
-	background-color: var(--dark-gray);
-	text-align: center;
-}
-nav ul{margin: 0px;}
-nav ul li{
-	display: inline-block;
-	list-style: none;
-	margin: 0px 10px 0px 10px;
-	padding: 10px;
-	transition: 0.2s;
-}
-nav a{
-	color:  var(--pastel-yellow);
-	font-size: 16pt;
-	text-decoration-style: none;
-}
-/*Hover*/
-nav a:hover{
-	color: var(--black);
-	transition: 0.10s;
-}
-nav ul li:hover{
-	background-color: var(--bright-yellow);
-	transition: 0.10s;
-}
-/*Active*/
-nav a:active{
-	color: var(--white);
-	transition: 0.10s;
-}
-nav ul li:active{
-	background-color: var(--dark-yellow);
-	transition: 0.10s;
-}
-/*Selecionado*/
-nav .selected{
-	color: var(--black);
-	transition: 0.10s;
-}
-nav .selected{
-	background-color: var(--bright-yellow);
-	transition: 0.10s;
-}
-
-@media only screen and (max-width: 600px){
+@media only screen and (orientation: portrait){
 	h1{
 		font-size: 6vw;
+	}
+
+	/*Guia de navegação*/
+	#top-menu{
+		background-color: var(--pastel-yellow);
+		display: none;
+		height: auto;
+		position: fixed;
+		width: 100%;
+	}
+	nav{
+		background-color: var(--yellow);
+		height: 100%;
+		left: 0;
+		overflow-x: hidden;
+		position: fixed;
+		top: 0;
+		width: 0;
+	}
+}
+
+@media only screen and (orientation: landscape){
+	/*Guia de navegação*/
+	#top-menu, #navbar-close-button{
+		display: none;
+	}
+	nav{
+		background-color: var(--dark-gray);
+		text-align: center;
+	}
+	nav ul{margin: 0px;}
+	nav ul li{
+		display: inline-block;
+		font-size: 2vw;
+		list-style: none;
+		margin: 0px 10px 0px 10px;
+		padding: 10px;
+		transition: 0.2s;
+	}
+	nav a{
+		color:  var(--pastel-yellow);
+		font-size: 16pt;
+		text-decoration-style: none;
+	}
+	/*Hover*/
+	nav a:hover{
+		color: var(--black);
+		transition: 0.10s;
+	}
+	nav ul li:hover{
+		background-color: var(--bright-yellow);
+		transition: 0.10s;
+	}
+	/*Active*/
+	nav a:active{
+		color: var(--white);
+		transition: 0.10s;
+	}
+	nav ul li:active{
+		background-color: var(--dark-yellow);
+		transition: 0.10s;
+	}
+	/*Selecionado*/
+	nav .selected{
+		color: var(--black);
+		transition: 0.10s;
+	}
+	nav .selected{
+		background-color: var(--bright-yellow);
+		transition: 0.10s;
 	}
 }

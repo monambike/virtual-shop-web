@@ -10,15 +10,18 @@
 	</head>
 	<body>
 		<header>
-			<div>
+			<div id="top-menu">
+				<span onmousedown="openMenu();">&#9776;&nbsp;MENU</span>
+			</div>
+
+			<div id="header-title">
 				<img id="logo" src="images/favicon.ico">
 				<h1><a href="?p=home"><span>ELETRO</span>LOJINHA&nbsp;LTDA.</a></h1>
 			</div>
-			<nav>
+
+			<nav id="navbar">
+				<span id="navbar-close-button" onmousedown="closeMenu()">X</span>
 				<ul>
-					<?php
-						echo $pg;
-					?>
 					<a href="?p=home">
 						<li <?php if($pg != "products" && $pg != "contact" && $pg != "about"){echo"class='selected'";}?>>INÍCIO</li>
 					</a>
