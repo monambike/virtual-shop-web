@@ -8,19 +8,15 @@
 	<body>
 		<section>
 			<h3>SOBRE&nbsp;NÓS</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<img src="">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Welcome to Shop LTDA., your number one source for all things home appliances. We're dedicated to giving you the very best of home appliances, with a focus on dependability, customer service, and agility.</p>
+
+			<p>Founded in 2020 by myself, Jhon, Shop LTDA. has come a long way from its beginnings in Kona, Hawaii. When John first started out, his passion for make products that could satisfy and make customers happy drove them to do tons of research so that Shop LTDA. can offer you the best products in the market. We now serve customers all over Hawaii, and are thrilled that we're able to turn our passion into our own website.</p>
+
+			<p>We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.</p>
+
+			<p>Sincerely,</p>
+
+			<p>John</p>
 		</section>
 	</body>
 </html>
