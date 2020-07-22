@@ -1,0 +1,20 @@
+.item-row{
+	background-color: red;
+}
+article{
+	float: left;
+	width: 50%;
+}
+article:nth-child(1){
+	background-color: green;
+}
+article:nth-child(2){
+	background-color: blue;
+}
+.item-row:nth-child(1){
+	background-color: pink;
+}
+.item-row:nth-child(2){
+	background-color: gray;
+	padding-top: 20px;
+}
