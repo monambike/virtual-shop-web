@@ -34,10 +34,10 @@ p{
 	margin-right: 2.5%;
 }
 /*Textos*/
-#footer-div2 ol li{
+#footer-div2 ol li, #footer-div2 ol li a{
 	color: var(--pastel-yellow);
 }
-#footer-div2 ol li:hover{
+#footer-div2 ol li:hover, #footer-div2 ol li a:hover{
 	color: var(--yellow);
 }
 

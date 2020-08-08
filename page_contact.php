@@ -1,6 +1,6 @@
 <?php?>
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 	<head>
 		<title>ELETROLOJINHA - CONTATO</title>
 		<link rel="stylesheet" type="text/css" href="css/page_contact.css">

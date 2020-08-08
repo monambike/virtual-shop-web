@@ -1,6 +1,6 @@
 <?php?>
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 	<head>
 		<title>ELETROLOJINHA - SOBRE</title>
 		<link rel="stylesheet" type="text/css" href="css/page_about.css">

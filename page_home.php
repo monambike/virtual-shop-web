@@ -1,6 +1,6 @@
 <?php?>
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 	<head>
 		<title>ELETROLOJINHA</title>
 		<link rel="stylesheet" type="text/css" href="css/page_home.css">
@@ -9,6 +9,7 @@
 		<section>
 			<h3>PÁGINA&nbsp;INICIAL</h3>
 			<article>
+				<h4>Lorem ipsum dolor sit amet</h4>
 				<div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

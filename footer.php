@@ -1,7 +1,8 @@
 <?php?>
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 	<head>
+		<title>footer</title>
 	</head>
 	<body>
 		<footer>
@@ -20,14 +21,30 @@
 			<div id="footer-div2">
 				Most asked products:
 				<ol>
-					<a href="#"><li>Product (1)</li></a>
-					<a href="#"><li>Product (2)</li></a>
-					<a href="#"><li>Product (3)</li></a>
-					<a href="#"><li>Product (4)</li></a>
-					<a href="#"><li>Product (5)</li></a>
-					<a href="#"><li>Product (6)</li></a>
-					<a href="#"><li>Product (7)</li></a>
-					<a href="#"><li>Product (8)</li></a>
+					<li>
+						<a href="#">Product (1)</a>
+					</li>
+					<li>
+						<a href="#">Product (2)</a>
+					</li>
+					<li>
+						<a href="#">Product (3)</a>
+					</li>
+					<li>
+						<a href="#">Product (4)</a>
+					</li>
+					<li>
+						<a href="#">Product (5)</a>
+					</li>
+					<li>
+						<a href="#">Product (6)</a>
+					</li>
+					<li>
+						<a href="#">Product (7)</a>
+					</li>
+					<li>
+						<a href="#">Product (8)</a>
+					</li>
 				</ol>
 			</div>
 			<div id="footer-div3">
@@ -45,7 +62,7 @@
 			</div>
 			<span>Creative Commons 2020</span>
 		</footer>
-		<script type="text/javascript">
+		<script>
 			var lastScroll = 0;
 			var menu = document.getElementById("top-menu");
 			var navbar = document.getElementById("navbar");

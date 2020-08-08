@@ -1,6 +1,6 @@
 <?php?>
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 	<head>
 		<title>ELETROLOJINHA - PRODUTOS</title>
 		<link rel="stylesheet" type="text/css" href="css/page_products.css">
@@ -17,7 +17,7 @@
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<img src="images/product-1.jpg" width="100%" height="200px">
+					<img src="images/product-1.jpg" width="100%" height="200px" alt="Produto 1">
 				</article>
 				<article class="item-product item-2">
 					<h4>PRODUTO</h4>
@@ -27,7 +27,7 @@
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<img src="images/product-2.jpg" width="100%" height="200px">
+					<img src="images/product-2.jpg" width="100%" height="200px" alt="Produto 2">
 				</article>
 			</div>
 			<div class="item-row">
@@ -39,7 +39,7 @@
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<img src="images/product-3.jpg" width="100%" height="200px">
+					<img src="images/product-3.jpg" width="100%" height="200px" alt="Produto 3">
 				</article>
 				<article class="item-product item-4">
 					<h4>PRODUTO</h4>
@@ -49,7 +49,7 @@
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<img src="images/product-4.jpg" width="100%" height="200px">
+					<img src="images/product-4.jpg" width="100%" height="200px" alt="Produto 4">
 				</article>
 			</div>			
 		</section>

@@ -29,6 +29,9 @@ h3{
 	text-align: center;
 	text-shadow: 2px 2px var(--black);
 }
+h4{
+	padding: 20px;
+}
 address{
 	font-style: italic;
 	margin: 0px;
