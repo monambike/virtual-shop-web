@@ -13,7 +13,6 @@
 					<li>Nome: John</li>
 					<li>Whatsapp: 808-334-4471</li>
 					<li>Email: a8uqe3zxn6j@powerencry.com</li>
-					<br>
 					<li>Endereço:</li>
 					<li>Rua: 4768  Stratford Drive</li>
 					<li>Cidade: Kona, Hawaii</li>
