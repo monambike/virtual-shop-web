@@ -55,10 +55,8 @@
 					var actualScroll = document.documentElement.scrollTop;
 
 					if(actualScroll > lastScroll && actualScroll > "400"){
-						console.log("descendo");
 						menu.style.display = "none";
 					}else if(actualScroll < lastScroll && actualScroll > "400"){
-						console.log("subindo");
 						menu.style.display = "block";
 					}else{
 						menu.style.display = "none";
