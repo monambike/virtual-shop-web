@@ -20,8 +20,10 @@
 			</div>
 
 			<nav id="navbar">
-				<span id="navbar-close-button" onmousedown="closeMenu()">X</span>
 				<ul>
+					<li>
+						<span id="navbar-close-button" onmousedown="closeMenu()">X</span>
+					</li>
 					<a href="?p=home">
 						<li <?php if($pg != "products" && $pg != "contact" && $pg != "about"){echo"class='selected'";}?>>INÍCIO</li>
 					</a>
