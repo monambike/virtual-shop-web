@@ -5,16 +5,21 @@ article{
 	float: left;
 	width: 50%;
 }
-article:nth-child(1){
-	background-color: green;
+.item-product h4, .item-product p{
+	padding: 20px;
 }
-article:nth-child(2){
-	background-color: blue;
+.item-product h4{
+	background-color: var(--black);
+	color: var(--white);
+	text-align: center;
 }
-.item-row:nth-child(1){
-	background-color: pink;
+.item-1, .item-4{
+	background-color: var(--dark-yellow);
+	border: 5px solid var(--yellow);
+	color: var(--pastel-yellow);
 }
-.item-row:nth-child(2){
-	background-color: gray;
-	padding-top: 20px;
+.item-2, .item-3{
+	background-color: var(--yellow);
+	border: 5px solid var(--dark-yellow);
+	color: var(--black);
 }
